@@ -1,0 +1,36 @@
+.header {
+  position: sticky;
+  top: 0;
+  margin: 0 auto;
+  width: 80%;
+  height: 80px;
+  background-color: #141414;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  justify-content: space-between;
+}
+.header .logo {
+  padding-left: 40px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #fff;
+}
+.header .header-links {
+  display: flex;
+  align-items: center;
+}
+.header .header-links li {
+  font-size: 18px;
+  font-weight: 700;
+}
+.header .header-links li a {
+  color: #f8f8f8;
+  text-decoration: none;
+  text-transform: capitalize;
+  padding: 0 20px;
+}
+.header .header-links li a:hover {
+  color: #fffc3c;
+}
